@@ -475,7 +475,7 @@
                 <button type="button" class="action-btn secondary-btn" onclick="closeModal()">
                     <i class="fas fa-times"></i> Cancelar
                 </button>
-                <button type="submit" class="action-btn primary-btn">
+                <button type="submit" class="action-btn primary-btn" onclick="closeModal()">
                     <i class="fas fa-save"></i> Guardar Producto
                 </button>
             </div>
