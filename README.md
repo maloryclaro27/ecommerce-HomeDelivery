@@ -1,15 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank">
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="./Home1.png" alt="Build Status"></a>
-
-
-
-## Home Delivery
-
-Nuestra plataforma de mensajería combina la eficiencia tradicional con la innovación tecnológica al ofrecer un servicio de entregas rápidas y seguras que ahora incorpora el uso de drones. A través de una red logística inteligente, garantizamos la entrega de paquetes en tiempo récord, incluso en zonas de difícil acceso, optimizando cada trayecto con tecnología de geolocalización avanzada. Ya sea por tierra o aire, nuestro compromiso es brindar soluciones de envío modernas, sostenibles y confiables para particulares y empresas.
-
-# 🛒 E-commerce Laravel – Plataforma multi-negocio
+# 🛒 E-commerce Laravel: Home Delivery – Plataforma multi-negocio
 
 Aplicación web de e-commerce desarrollada con **Laravel** que permite conectar a clientes con negocios aliados a través de una plataforma de pedidos y domicilios. El sistema implementa **roles de usuario** (cliente, dueño de negocio y administrador), gestión de catálogos por negocio y un panel dedicado **“Mi negocio”** para los comercios con convenio.
 
@@ -17,48 +6,58 @@ Aplicación web de e-commerce desarrollada con **Laravel** que permite conectar 
 
 ## 🚀 Características principales
 
-- 👥 **Múltiples roles de usuario**
-  - **Cliente**: navega el catálogo, realiza pedidos y consulta su historial.
-  - **Dueño de negocio con convenio**: administra su propio catálogo, ve estadísticas y gestiona domicilios desde la sección **“Mi negocio”**.
-  - **Administrador**: gestiona usuarios, negocios, productos globales y parámetros del sistema.
+- 👥 **Roles dinámicos de usuario**
+  - **Cliente:** navega el catálogo y realiza pedidos.
+  - **Dueño de negocio:** gestiona su negocio, catálogo y pedidos desde “Mi negocio”.
+  - **Administrador:** controla usuarios, negocios y productos globales.
 
-- 🏪 **Módulo “Mi negocio” para dueños**
-  - Registro de negocio (nombre, categoría, datos básicos).
-  - Gestión de productos propios (crear, editar, eliminar).
-  - Visualización de catálogo público del negocio.
-  - Vista interna tipo tablero para revisar pedidos y domicilios.
+- 🏪 **Panel “Mi negocio”**
+  - Registro y edición de información del negocio.
+  - Administración de productos (crear, editar, eliminar).
+  - Vista pública del catálogo del negocio.
 
-- 🧾 **Catálogo y productos**
-  - Catálogo filtrable y navegable para clientes.
-  - Asociación de productos a un negocio (multi-negocio).
-  - Posibilidad de vista de catálogo específica por negocio.
+- 📦 **Catálogo interactivo**
+  - Productos organizados por negocio o categoría.
+  - Filtros, vistas por tipo y secciones dinámicas.
 
-- 🚚 **Módulo de domicilios** (estructura base)
-  - Registro y seguimiento básico de pedidos.
-  - Integración lógica para estados de pedido (pendiente, en camino, entregado, etc.).
+- 🚚 **Módulo de domicilios**
+  - Control básico de pedidos (pendiente, en camino, entregado).
+  - Asociación con el negocio y usuario correspondiente.
 
-- 🔐 **Gestión de roles y navegación dinámica**
+- 🔐 **Navegación personalizada**
   - El **navbar cambia según el rol** del usuario autenticado.
-  - Acceso a **“Mi negocio”** sólo para dueños de negocio con convenio.
-  - Rutas protegidas mediante middlewares de autenticación y permisos.
-
-- 🎨 **Front-end personalizable**
-  - Vistas Blade organizadas (por ejemplo: `catalogo_dueño.blade.php`).
-  - Estilos con **Tailwind CSS** (y/o Bootstrap, según configuración del proyecto).
-  - Interactividad ligera con **Alpine.js** en componentes clave.
-
-> ⚠️ Nota: Algunas funcionalidades pueden estar en desarrollo o planificadas según la rama o etapa del proyecto.
+  - Rutas protegidas mediante **middlewares de autenticación**.
 
 ---
 
-## 🧱 Stack tecnológico
+## ⚙️ Tecnologías utilizadas
 
-- **Backend:** Laravel (PHP)
-- **Frontend:** Blade, Tailwind CSS / Bootstrap, Alpine.js
-- **Base de datos:** MySQL / MariaDB
-- **Servidor local:** XAMPP / Laravel Sail / similar
-- **Control de versiones:** Git + GitHub
+| Componente | Descripción |
+|-------------|-------------|
+| 🧱 **Laravel 10+** | Framework principal (MVC, migraciones, seeders) |
+| 🐘 **PHP 8.1+** | Lenguaje de servidor |
+| 🗄️ **MySQL / MariaDB** | Base de datos relacional |
+| 🎨 **Tailwind CSS / Bootstrap** | Estilos y diseño responsivo |
+| ⚡ **Alpine.js** | Interactividad ligera en el frontend |
+| 🔑 **Auth Scaffolding (Breeze / Fortify)** | Registro y autenticación de usuarios |
+| 🧩 **Blade Templates** | Motor de vistas de Laravel |
 
 ---
 
+## 🖼️ Vista general
 
+**Interfaz de catálogo para clientes:**
+
+![Vista catálogo cliente](assets/catalogo_cliente.png)
+
+**Panel “Mi negocio” para dueños:**
+
+![Panel dueño](assets/catalogo_dueño.png)
+
+**Formulario de registro con roles:**
+
+![Registro usuario](assets/registro_roles.png)
+
+> 📸 Las imágenes se encuentran en la carpeta `assets/` del repositorio.
+
+---
