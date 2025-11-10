@@ -46,9 +46,9 @@ Aplicación web de e-commerce desarrollada con **Laravel** que permite conectar 
 
 ## 🖼️ Vista general
 
-**Interfaz de catálogo para clientes:**
+**Interfaz principal**
 
-![Vista catálogo cliente](assets/catalogo_cliente.png)
+![InterfazPrincipal](Captura de pantalla 2025-11-09 160601.png)
 
 **Panel “Mi negocio” para dueños:**
 
