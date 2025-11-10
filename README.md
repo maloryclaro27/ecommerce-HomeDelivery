@@ -47,9 +47,11 @@ Aplicación web de e-commerce desarrollada con **Laravel** que permite conectar 
 ## 🖼️ Vista general
 
 **Interfaz principal**
-![Panel dueño](/interfaz_principal.png)
+![Interfaz](/interfaz_principal.png)
 
-**Panel “Mi negocio” para dueños:**
+---
+
+![Interfaz](/interfaz_principal1.png)
 
 ![Panel dueño](assets/catalogo_dueño.png)
 
