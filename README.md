@@ -47,18 +47,37 @@ Aplicación web de e-commerce desarrollada con **Laravel** que permite conectar 
 ## 🖼️ Vista general
 
 **Interfaz principal**
+
+--- 
+
 ![Interfaz](/interfaz_principal.png)
 
 ---
 
 ![Interfaz](/interfaz_principal1.png)
 
-![Panel dueño](assets/catalogo_dueño.png)
+---
+
+![Interfaz](/interfaz_principal2.png)
+
+---
+
+![Interfaz](/interfaz_principal3.png)
+
+---
 
 **Formulario de registro con roles:**
 
-![Registro usuario](assets/registro_roles.png)
-
-> 📸 Las imágenes se encuentran en la carpeta `assets/` del repositorio.
+![Registro usuario](/registro_roles.png)
 
 ---
+
+**Catálogo para clientes:**
+
+![catalogo_cliente](/catalogo_cliente.png)
+
+**Listado de tiendas**
+
+![catalogo_cliente](/lista_tiendas.png)
+
+
