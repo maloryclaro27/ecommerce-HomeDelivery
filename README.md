@@ -226,15 +226,49 @@ Puedes modificarlo y reutilizarlo libremente citando la fuente original.
 
 ---
 
-**Checkout de compra:**
-
-![pagoo](/pago1.png)
-
----
-
 **Dashboard del administrador para el monitoreo de los medios de transporte:**
 
 ![drones](/drones.png)
+
+## ⚙️ Instalación paso a paso
+
+### Requisitos previos:
+
+PHP >= 8.1
+Composer
+MySQL/MariaDB
+Node.js y npm
+
+### Clonar el repositorio:
+
+git clone <ecommerce-HomeDelivery>
+cd ecommerce-ing-software
+
+### Instalar dependencias:
+
+composer install
+npm install
+
+### Configurar entorno:
+
+cp .env.example .env
+php artisan key:generate
+
+### Configurar base de datos:
+
+Crear base de datos home_delivery_bd
+Actualizar credenciales en .env
+
+### Ejecutar migraciones:
+
+php artisan migrate
+
+### Iniciar servidor:
+
+php artisan serve
+
+
+
 
 
 
