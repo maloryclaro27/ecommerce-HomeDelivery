@@ -127,9 +127,9 @@ Puedes modificarlo y reutilizarlo libremente citando la fuente original.
 ---
 
 ### 📫 Contacto
-**Desarrollado por:** Santiago Jiménez Delgado  
-📧 sj.jimenez@uniandes.edu.co  
-🌐 Medellín, Colombia
+**Desarrollado por:** Málory Claro Ojeda  
+📧 claromalory@gmail.com  
+🌐 Bucaramanga, Colombia
 
 
 ## 🖼️ Vista general
@@ -164,8 +164,83 @@ Puedes modificarlo y reutilizarlo libremente citando la fuente original.
 
 ![catalogo_cliente](/catalogo_cliente.png)
 
+---
+
 **Listado de tiendas**
 
-![catalogo_cliente](/lista_tiendas.png)
+![catalogo_tiendas](/lista_tiendas.png)
+
+---
+
+**Listado de restaurantes con sistema de filtrado:**
+
+![restaurantes](/restaurantes.png)
+
+---
+
+**Ejemplo de pedido con un restaurante:**
+
+![rest](/productos.png)
+
+---
+
+**Vista del carrito:**
+
+![carrito](/carrito.png)
+
+---
+
+**Resumen de compra:**
+
+![resumen](/compra.png)
+
+---
+
+**Pasarela de pagos con reducción de total del pago por puntos de fidelización::**
+
+![pasarela](/pago.png)
+
+---
+
+**Checkout de compra:**
+
+![checkout](/pago1.png)
+
+---
+
+**Selección de medio de transporte:**
+
+![transporte](/transporte.png)
+
+---
+
+**Sistema de geolocalización del pedido:**
+
+![geolocalizacion](/geolocalizacion.png)
+
+---
+
+**Historial de pedidos:**
+
+![historial](/historial.png)
+
+---
+
+**Checkout de compra:**
+
+![pagoo](/pago1.png)
+
+---
+
+**Dashboard del administrador para el monitoreo de los medios de transporte:**
+
+![drones](/drones.png)
+
+
+
+
+
+
+
 
 
